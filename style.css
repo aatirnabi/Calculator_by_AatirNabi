@@ -34,7 +34,7 @@ html {
   animation: typing 2s steps(26);
   white-space: nowrap;
   overflow: hidden;
-  font-size: 2vh;
+  font-size: 1.9vh;
   color: #fff;
 }
 
