@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
+
+body,
+html {
+  box-sizing: border-box;
+  background: black;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.main {
+  background-image: url("CalCoding.png");
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  background-color: #cccccc;
+  height: 100vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.wrapper {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  border: 1px solid rgba(0, 43, 91);
+  border-radius: 2px;
+  background-color: rgba(0, 43, 91, 0.4);
+}
+
+.typing-demo {
+  width: 26ch;
+  animation: typing 2s steps(26);
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 2vh;
+  color: #fff;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0px 2px 4px 5px #fff;
+  border-radius: 35px 0 35px 0;
+  padding-bottom: 20px;
+  width: 23.42vw;
+}
+.herosection {
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  background: rgba(0, 43, 91);
+  border-top-left-radius: 35px;
+}
+.buttons {
+  padding: 20px 20px 0 20px;
+}
+.row {
+  width: 280px;
+  float: left;
+}
+input[type="button"] {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  background: slategray;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+input[type="text"] {
+  width: 270px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: #ffffff;
+  text-align: right;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0 25px;
+}
+input[type="reset"] {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding: 0;
+  margin: 5px 0 0 0;
+  background: black;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 15px 0 15px 0;
+  font-weight: 700;
+  color: slategray;
+  cursor: pointer;
+}
+
+.footer {
+  background: rgba(0, 43, 91) !important;
+  color: #ffffff !important;
+}
